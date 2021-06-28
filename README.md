@@ -12,3 +12,9 @@ The `requirements.txt` lists all Python libraries that should be installed befor
 ```bash
 pip install -r requirements.txt
 ```
+
+### Command
+
+```bash
+python3 main.py  --token {token} --provider {provider} --organization {organization} --branches main,develop,etc
+```
