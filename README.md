@@ -16,11 +16,11 @@ pip install -r requirements.txt
 ### Command
 
 ```bash
-python3 main.py  --token {token} --provider {provider} --organization {organization} --branches main,develop,etc
+python3 main.py  --token {token} --provider {provider} --organization {organization}
 ```
 
 ### Generate CSV
 
 ```bash
-python3 main.py  --token {token} --provider {provider} --organization {organization} --branches main,develop,etc --output output.csv
+python3 main.py  --token {token} --provider {provider} --organization {organization} --output output.csv
 ```
