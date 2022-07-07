@@ -16,11 +16,13 @@ pip install -r requirements.txt
 ### Command
 
 ```bash
-python3 main.py  --token {token} --provider {provider} --organization {organization}
+python3 main.py  --token {token} --provider {provider} --organization {organization} --baseurl {baseurl} --repos {repo1,repo2,...}
 ```
+Flag --repos is optional. If missing, will be for all repositories. The flag --baseurl is optional if you're using Codacy cloud version.
 
 ### Generate CSV
 
 ```bash
-python3 main.py  --token {token} --provider {provider} --organization {organization} --output output.csv
+python3 main.py  --token {token} --provider {provider} --organization {organization} --baseurl {baseurl} --repos {repo1,repo2,...} --output output.csv
 ```
+Flag --repos is optional. If missing, will be for all repositories. The flag --baseurl is optional if you're using Codacy cloud version.
