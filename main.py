@@ -95,7 +95,7 @@ def showMetrics(token,baseurl,provider,organization,repos,output):
     if(output != None):
         generateCSV(report, output)
     else:
-        print('\n############### Report will all Repositories #########')
+        print('\n############### Report with all Repositories #########')
         print(report)
     print('\nTotal projects: %s, with coverage: %s'%(totalProjects,reposWithCoverage))
     print('Average coverage per repo with coverage: %s'%(totalCoverage/reposWithCoverage))
